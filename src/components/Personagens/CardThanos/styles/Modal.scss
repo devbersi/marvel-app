@@ -1,0 +1,96 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(10, 8, 8, 0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    background-color: rgba(212, 5, 5, 0.8);
+    padding: 0;
+    border-radius: 3px;
+    width: 50vw;
+    height: 68vh;
+    border-radius: 25px;
+
+    font-size: 14px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-modal {
+    margin: 0;
+    padding: 0;
+
+    border-style: none  ;
+    border: none;
+
+    width: 0%;
+    height: 0%;
+    .BiExit {
+        height: 25px;
+        width: 25px;
+        color: #fff;
+
+        cursor: pointer;
+        
+    }
+}
+
+.img-modal img{
+    width: 25vw;
+    height: 68.5vh;
+
+    margin-left: 157px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+
+    border-radius: 25px;
+}
+.img-modal {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    margin-left: 25px;
+
+    span {
+        font-weight: bolder;
+       padding-top: 15px;
+    }
+     h2 {
+            margin-bottom: 25px;
+        }
+    h3 {
+        margin-top: 15px;
+    }    
+}
+
+
+
